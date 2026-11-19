@@ -1,0 +1,7 @@
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy>=1.26,<2.2
+# MediaPipe 0.10.21 declares JAX as a dependency; these caps avoid pip
+# backtracking through newer JAX releases when resolving its requirements.
+jax==0.4.38
+jaxlib==0.4.38
